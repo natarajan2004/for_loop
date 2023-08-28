@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main()
+{
+int year;
+printf("Enter your year:");
+scanf("%d",&year); 
+if(year%100==0)
+{
+    printf("Century");
+}
+else
+{
+    printf("Not century");
+}
+}
